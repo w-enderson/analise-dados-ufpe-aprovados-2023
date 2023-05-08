@@ -212,6 +212,7 @@ OBS: os pesos de cada curso não foram levados em consideração, por isso algun
 
 ### Curso com maior média em cada cota:
 | cota | curso | media|
+| ---- | ----- | ---- |
 | A0  | MEDICINA | 832.41 |
 | L1  | MEDICINA | 777.37 |
 | L11  | MEDICINA | 699.7 |
