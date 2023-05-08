@@ -123,6 +123,7 @@ OBS: os pesos de cada curso não foram levados em consideração, por isso algun
 | L9 | 16 |
 | L8 | 13 |
 | L4 | 9 |
+
 ![relacao-alunos-cotas](https://github.com/wenderson-juvenal/analise-dados-ufpe-aprovados-2023/blob/main/images/relacao-alunos-cotas.png)
 
 ### relacaoNotasCotas:
@@ -141,6 +142,7 @@ OBS: os pesos de cada curso não foram levados em consideração, por isso algun
 | L15 | 564.06 |
 | L9 | 540.72 |
 | L11 | 530.75 |
+
 ![relacao-notas-cotas](https://github.com/wenderson-juvenal/analise-dados-ufpe-aprovados-2023/blob/main/images/relacao-notas-cotas.png)
 
 ### relacaoMediaCursos:
