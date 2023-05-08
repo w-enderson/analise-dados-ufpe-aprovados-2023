@@ -21,11 +21,13 @@ OBS: os pesos de cada curso não foram levados em consideração, por isso algun
 - cursoMaiorNotaMedia - retorna os cursos com as maiores médias em cada cota.
 
 ## Resultados:
-### alunosEntrada:
+### Alunos por entrada:
 
-```[3171, 2176]``` 3171 alunos na primeira entrada e 2716 alunos na segunda.
+```[3171, 2176]``` 
+- 3171 alunos na primeira entrada;
+- 2716 alunos na segunda;
 
-### alunosCurso:
+### Alunos por curso:
 
 | curso | quantidade de alunos |
 |-------|----------------------|
@@ -91,11 +93,11 @@ OBS: os pesos de cada curso não foram levados em consideração, por isso algun
 | OCEANOGRAFIA | 25 |
 | LETRAS - FRANCÊS | 13 |
 
-### notasExtremas:
-865.26 : maior nota;
-391.94 : menor nota;
+### Notas extremas:
+- 865.26 : maior nota;
+- 391.94 : menor nota;
 
-### relacaoNotas:
+### Quantidade de alunos com nota em cada intervalo de 100:
 | intervalos | quantidade de alunos |
 | ---------- | -------------------- |
 | (300 - 400) | 1 |
@@ -107,7 +109,7 @@ OBS: os pesos de cada curso não foram levados em consideração, por isso algun
 
 ![relacao-notas](https://github.com/wenderson-juvenal/analise-dados-ufpe-aprovados-2023/blob/main/images/relacao-notas.png)
 
-### relacaoAlunosCotas:
+### Quantidade de alunos em cada cota:
 | cota | quatidade de alunos |
 | ---- | -------------------- |
 | A0 | 2770 |
@@ -126,7 +128,7 @@ OBS: os pesos de cada curso não foram levados em consideração, por isso algun
 
 ![relacao-alunos-cotas](https://github.com/wenderson-juvenal/analise-dados-ufpe-aprovados-2023/blob/main/images/relacao-alunos-cotas.png)
 
-### relacaoNotasCotas:
+### Média de notas em cada cota:
 | cota | media |
 | ---- | ----- |
 | A0 | 679.96 |
@@ -145,7 +147,7 @@ OBS: os pesos de cada curso não foram levados em consideração, por isso algun
 
 ![relacao-notas-cotas](https://github.com/wenderson-juvenal/analise-dados-ufpe-aprovados-2023/blob/main/images/relacao-notas-cotas.png)
 
-### relacaoMediaCursos:
+### Média de nota por curso:
 | curso | media |
 | ----- | ----- |
 | ABI - ENGENHARIA | 644.91 |
@@ -210,7 +212,23 @@ OBS: os pesos de cada curso não foram levados em consideração, por isso algun
 | TERAPIA OCUPACIONAL | 649.39 |
 | TURISMO | 601.29 |
 
-### relacaoCursoCotaMedia:
+### Curso com maior média em cada cota:
+| cota | curso | media|
+| A0  | MEDICINA | 832.41 |
+| L1  | MEDICINA | 777.37 |
+| L11  | MEDICINA | 699.7 |
+| L13  | MEDICINA | 769.93 |
+| L15  | MEDICINA | 713.94 |
+| L2  | ARTES VISUAIS | 640.04 |
+| L3  | MEDICINA | 743.09 |
+| L4  | MEDICINA | 718.06 |
+| L5  | SISTEMAS DE INFORMAÇÃO | 797.06 |
+| L6  | ARTES VISUAIS | 666.56 |
+| L7  | MEDICINA | 755.08 |
+| L8  | MEDICINA | 739.15 |
+| L9  | MEDICINA | 729.15 |
+
+### Média de nota em cada cota de cada curso:
 | curso | cota | media |
 | ----- | ---- | ----- |
 | ABI - ENGENHARIA | A0 | 662.39 |
@@ -605,19 +623,3 @@ OBS: os pesos de cada curso não foram levados em consideração, por isso algun
 | TURISMO | L3 | 578.01 |
 | TURISMO | L5 | 610.12 |
 | TURISMO | L7 | 559.91 |
-
-### cursoMaiorNotaMedia:
-| cota | curso | media|
-| A0  | MEDICINA | 832.41 |
-| L1  | MEDICINA | 777.37 |
-| L11  | MEDICINA | 699.7 |
-| L13  | MEDICINA | 769.93 |
-| L15  | MEDICINA | 713.94 |
-| L2  | ARTES VISUAIS | 640.04 |
-| L3  | MEDICINA | 743.09 |
-| L4  | MEDICINA | 718.06 |
-| L5  | SISTEMAS DE INFORMAÇÃO | 797.06 |
-| L6  | ARTES VISUAIS | 666.56 |
-| L7  | MEDICINA | 755.08 |
-| L8  | MEDICINA | 739.15 |
-| L9  | MEDICINA | 729.15 |
