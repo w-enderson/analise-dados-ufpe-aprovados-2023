@@ -22,8 +22,6 @@ OBS: os pesos de cada curso não foram levados em consideração, por isso algun
 
 ## Resultados:
 ### Alunos por entrada:
-
-```[3171, 2176]``` 
 - 3171 alunos na primeira entrada;
 - 2716 alunos na segunda;
 
