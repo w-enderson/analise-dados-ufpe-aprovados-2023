@@ -7,7 +7,7 @@ Aplicação feita em python.
 
 Para ler o pdf usei a biblioteca PyMuPDF, depois transformei em um arquivo .csv com os dados necessários (nota, cota, curso e entrada) e os manipulei usando Pandas. Também foi usado matplotlib para criar gráficos.
 
-OBS: os pesos de cada curso não foram levados em consideração, por isso alguns resultados não são tão precisos.
+OBS: os pesos de cada curso não foram levados em consideração, por isso, a análise não é precisa (só a fiz pra treinar análise de dados).
 
 ## Funções
 - alunosEntrada - retorna uma lista com a quantidade de alunos na primeira e segunda entrada.
